@@ -137,6 +137,10 @@ table {
   background-color: black;
 }
 
+p {
+  align-items: bottom;
+}
+
 .photoGrid {
   opacity: 0.6;
 }
