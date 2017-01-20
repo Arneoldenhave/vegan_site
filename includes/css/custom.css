@@ -128,6 +128,19 @@ table {
     line-height: 0px;
 }
 
+//Pagina 1 
+
+table {
+  line-height: 0px;
+  margin: 0px;
+  padding: 0px;
+  background-color: black;
+}
+
+.photoGrid {
+  opacity: 0.6;
+}
+
 .photosGrid {
 	opacity: 0.4;
 
@@ -146,8 +159,10 @@ table {
 
 }
 
+/* Pagina 2 */
 .photoRecipe {
   position: absolute;
+  /*left: 0px;*/
   background-color: yellow;
   margin-right: 0px;
 
@@ -160,8 +175,82 @@ table {
   padding-top: 0px;
   padding-left: 10px;
   margin-left: 0px
+  right: 0px;
 
 }
+.boxList {
+  height: 0px;
+  margin-bottom: 405px;
+
+
+
+}
+
+#listOne {
+  border-style: solid;
+  border-width: 5px;
+  margin-top: 0px;
+  /*margin-bottom: 400px;*/
+
+
+}
+
+#listTwo { 
+  border-style: solid;
+  border-width: 5px;
+  /*margin-top: 405px;*/
+}
+
+#listeThree {
+
+}
+
+#listFour {
+
+}
+#listFive {
+
+}
+
+#header1 
+
+#listRecipe1
+
+#recipeActual1
+
+
+
+#header2
+
+#listRecipe2
+
+#recipeActual2
+
+
+
+#header3
+
+#listRecipe3
+
+#recipeActual3
+
+
+#header4
+
+#listRecipe4
+
+#recipeActual4
+
+
+
+#header5
+
+#listRecipe5
+
+#recipeActual5
+
+
+
 
 /* 
   position: relative of absolute of fixed of weet ik veel;
