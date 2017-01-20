@@ -165,8 +165,18 @@ table {
   /*left: 0px;*/
   background-color: yellow;
   margin-right: 0px;
+  list-style-type: none;
 
 }
+
+.header {
+  padding-top: 0px;
+}
+
+.headerRecipes {
+margin-top: 0px;
+}
+
 
 .recipes {
   position: absolute;
@@ -176,17 +186,20 @@ table {
   padding-left: 10px;
   margin-left: 0px
   right: 0px;
+  list-style-type: none;
 
 }
 .boxList {
   height: 0px;
-  margin-bottom: 405px;
-
+  margin-bottom: 402px;
 
 
 }
 
-#listOne {
+
+}
+
+/*#listOne {
   border-style: solid;
   border-width: 5px;
   margin-top: 0px;
@@ -195,7 +208,7 @@ table {
 
 }
 
-#listTwo { 
+/*#listTwo { 
   border-style: solid;
   border-width: 5px;
   /*margin-top: 405px;*/
