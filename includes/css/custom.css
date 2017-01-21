@@ -1,8 +1,3 @@
-*{
-
-font-family: 'Didact Gothic', sans-serif;
-  
-}
 
 .fixed-nav-bar {
   position: fixed;
@@ -13,6 +8,11 @@ font-family: 'Didact Gothic', sans-serif;
   width: 100%;
   height: 50px;
   background-color: #000000;
+}
+
+.blockBar {
+  margin-left: ;
+  margin-right: ;
 }
 
 /* The element at the top of the page right after the fixed navigation bar
@@ -42,18 +42,21 @@ font-family: 'Didact Gothic', sans-serif;
 }
 .menu-items {
   display: inline-block;
+  font-family: 'Didact Gothic', sans-serif;
 }
 .sitename {
   display: inline-block;
-  margin-right: 20px;
-  margin-left: 10px;
+  margin-right: 39px;
+  margin-left: 0px;
+  font-family: 'Didact Gothic', sans-serif;
+  font-size: 180%;
 }
 a.sitename, a:visited.sitename {
   color: #e0e0e0;
 }
 .menu-items li {
   display: inline-block;
-  margin-right: 10px;
+  margin-right: 26px;
   margin-left: 10px;
 }
 .menu-items a {
@@ -83,8 +86,10 @@ a.sitename, a:visited.sitename {
     position: absolute;
     top: 0;
     left: 15px;
-    margin-left: 0px;
+    margin-left: -158px;
+   font-size: 180%;
   }
+
   .menu-items {
     display: none; 
     width: 100%;
