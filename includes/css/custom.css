@@ -1,4 +1,8 @@
-.
+*{
+
+font-family: 'Didact Gothic', sans-serif;
+  
+}
 
 .fixed-nav-bar {
   position: fixed;
@@ -15,7 +19,10 @@
    MUST have sufficient top margin or else it will be covered by the bar */
 .content {
   margin-top: 20px;
+
 }
+
+
 
 /* Example responsive navigation menu  */
 .fixed-nav-bar li, .fixed-nav-bar a { 
@@ -138,7 +145,8 @@ table {
 }
 
 p {
-  align-items: bottom;
+vertical-align: bottom;
+
 }
 
 .photoGrid {
